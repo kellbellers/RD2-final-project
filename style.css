@@ -90,11 +90,6 @@ a:hover {
 	color: var(--color-teal-dark-extra);
 }
 
-main a:hover {
-	background-color: var(--color-mauve-light-extra);
-	transition: background-color 1.5s ease;
-}
-
 a:focus {
 	text-decoration: underline;
 }
@@ -495,6 +490,11 @@ So Lucky Page Components
 	margin: auto;
 	max-width: 50rem;
 	padding: 0 2.5rem;
+}
+
+.main-solucky a:hover {
+	background-color: var(--color-mauve-light-extra);
+	transition: background-color 1.5s ease;
 }
 
 .main-solucky p {
